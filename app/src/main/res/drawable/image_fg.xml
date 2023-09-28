@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Circular shape with a transparent fill -->
+    <item
+        android:gravity="center"
+        android:height="100dp"
+        android:width="100dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <!-- Gradient background -->
+    <item
+        android:gravity="center"
+        android:height="100dp"
+        android:width="100dp"
+        >
+        <shape android:shape="oval">
+            <gradient
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:startColor="@color/colorTransparent"
+                android:centerColor="@android:color/transparent"
+                android:endColor="#40000000"
+                android:gradientRadius="60dp"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list>
